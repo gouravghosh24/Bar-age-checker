@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+    <title>DOM PRACTICE 1</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+   <div class="container bg-dark">
+    <div class="row float-center">
+        <div class="col-8 shifting">
+            <a class="navbar-brand text-light" href="#">Bar&Drinks</a>
+            <input class="input m-2 inp" type="text" placeholder=" Name !! " id="input1" />
+            <input class="input m-2 inp" type="number" placeholder=" Age !! " id="input2" />
+            <input class="input m-2 inp" type="text" placeholder=" Drink Type !! " id="input3" />
+        </div>
+        <div class="row">
+            <div class="col-2 butn">
+                <button class="btn btn-info" onclick="shows()" id="btns1">Search</button>
+            </div>
+        </div>
+    </div>
+   </div>
+   <div class="container">
+        <div class="row">
+            <div class="jus">
+                <div class="card text-center">
+                    <div class="card-body">
+                      <h5 class="card-title">
+                          <ul class="list-group">
+                              <ol class="" id="shows0"></ol>
+                              <ol class="" id="shows1"></ol>
+                              <ol class="" id="shows2"></ol>
+                        </ul><br/>
+                        <ul id="sugs"></ul>
+                        <a href="https://www.spencers.in/liquor.html" id="suggs"></a>
+                        
+                      </h5>
+                      
+                    </div>
+                  </div>
+            </div>
+        </div>
+   </div>
+  <div class="cokies">
+    <h5 id="datas"></h5>
+    <h5 id="fatas"></h5>
+  </div> 
+
+
+    <script type="text/javascript" src= "bar-age-checker.js"></script>
+
+
+</body>
+</html>
